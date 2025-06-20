@@ -1,0 +1,49 @@
+# Umum
+node_modules/
+**/node_modules/
+
+# Output build (frontend)
+frontend/build/
+# Abaikan folder assets di frontend
+frontend/src/assets/
+# Abaikan folder 
+frontend/src/components/Admin/
+frontend/src/components/Cart/
+frontend/src/components/Products/
+frontend/src/redux/slices/
+frontend/src/redux/store.js
+
+# Output build (kalau ada di backend)
+backend/dist/
+backend/build/
+backend/config/db.js
+backend/data/products.js
+backend/middleware/authMiddleware.js
+backend/models/
+backend/routes/
+backend/seeder.js
+backend/server.js
+
+
+# File environment
+.env
+.env.*  # misalnya .env.local, .env.production
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Coverage / testing
+coverage/
+
+# Misc
+*.tgz
